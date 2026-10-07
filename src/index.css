@@ -1,0 +1,19 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+::selection {
+	background: rgba(8, 127, 116, 0.18);
+}

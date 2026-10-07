@@ -1,0 +1,12 @@
+{
+  "name": "HealthNext Diagnostic Hub",
+  "short_name": "HealthNext",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafb",
+  "theme_color": "#087f74",
+  "description": "HealthNext frontend diagnostic screening workspace",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
