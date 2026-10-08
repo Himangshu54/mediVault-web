@@ -7,9 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies and Builds
+node_modules/
+**/node_modules/
+dist/
+dist-ssr/
+build/
+
+# Critical AWS & Database Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+backend/uploads/
 *.local
 
 # Editor directories and files
